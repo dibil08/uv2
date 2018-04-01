@@ -415,6 +415,7 @@ public class Controller {
                 decodedAttachmentsBox.setVisible(true);
                 decodedAttachmentsBoxLabel.setVisible(true);
                 decodeMessageLabel.setText("Encoded attachments:");
+                saveAttachmentButton.setVisible(true);
                 for(int i=0;i<attachments.length;i++){
                     decodedAttachmentsBox.getItems().add(attachments[i]);
                 }
